@@ -23,3 +23,7 @@
         text-align: center;
       	
       }
+
+      #frameStyle {
+        display:block;
+      }
