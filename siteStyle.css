@@ -3,14 +3,10 @@
         margin: 75px 50px;
       }
 
-     /* #imgdivLeft{
-      	text-align: left;
-        margin: 75px 50px;
+      #overAll {
+        background-color: white;
+        font-family: georgia;
       }
-      #imgdivRight{
-      	text-align: right;
-        margin: 75px 50px;
-      } */
 
       #LIKEheader{
         text-align: center;
@@ -28,4 +24,14 @@
         display:block;
         text-align: center;
         margin-top: 25px
+      }
+
+      #experienceStyle {
+        list-style: square;
+        text-align: left;
+      }
+
+      #resumeHead {
+        text-align: center;
+        font-style: bold;
       }
