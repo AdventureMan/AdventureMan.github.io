@@ -27,11 +27,11 @@
       }
 
       #experienceStyle {
-        list-style: square;
+        list-style: circle;
         text-align: left;
       }
 
       #resumeHead {
         text-align: left;
-        font-weight: bold;
+        font-: bold;
       }
