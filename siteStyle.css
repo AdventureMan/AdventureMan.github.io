@@ -29,6 +29,7 @@
       #experienceStyle {
         list-style: circle;
         text-align: left;
+        line-height: 150%;
       }
 
       #resumeHead {
