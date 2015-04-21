@@ -28,11 +28,11 @@
 
       #experienceStyle {
         list-style: circle;
-        text-align: left;
+        text-align: center;
         line-height: 150%;
       }
 
       #resumeHead {
-        text-align: left;
+        text-align: center;
         font-: bold;
       }
