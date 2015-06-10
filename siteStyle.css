@@ -36,3 +36,9 @@
         text-align: left;
         font-: bold;
       }
+
+      .HomePageSections{
+        width: auto;
+        height: 100px;
+        background-color: #4E8AAE;
+      }
