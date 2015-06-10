@@ -44,14 +44,14 @@
       }
 
       #HomePageSection2{
+        height: 100vh;
         width: 100%;
-        height: 100%;
         background-color: #FFBA64;
       }
 
       #HomePageSection3{
+        height: 100vh;
         width: 100%;
-        height: 100%;
         background-color: #50CB82;
       }
 
