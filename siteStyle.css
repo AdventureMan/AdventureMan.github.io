@@ -39,19 +39,19 @@
 
       #HomePageSection1{
         width: auto;
-        height: 300px;
+        height: auto;
         background-color: #4E8AAE;
       }
 
       #HomePageSection2{
         width: auto;
-        height: 300px;
+        height: auto;
         background-color: #FFBA64;
       }
 
       #HomePageSection3{
         width: auto;
-        height: 300px;
+        height: auto;
         background-color: #50CB82;
       }
 
