@@ -60,11 +60,12 @@
       }
 
       .HomePageText{
+        padding-top: 10px;
         text-align: center;
         font-family: sans-serif;   
         color: #FFFFFF;
         text-shadow: 1px 1px 10px #000000;
         letter-spacing: 5px;
-        vertical-align: middle;
+        
       }
 
