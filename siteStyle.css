@@ -45,21 +45,21 @@
         height: 100vh;
         width: 100%;
         background-color: #4E8AAE;
-        overflow-y: auto;
+        overflow-y: hidden;
       }
 
       #HomePageSection2{
         height: 100vh;
         width: 100%;
         background-color: #FFBA64;
-        overflow-y: auto;
+        overflow-y: hidden;
       }
 
       #HomePageSection3{
         height: 100vh;
         width: 100%;
         background-color: #50CB82;
-        overflow-y: auto;
+        overflow-y: hidden;
       }
 
       .HomePageHeader{
