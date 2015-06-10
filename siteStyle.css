@@ -57,8 +57,10 @@
 
       .HomePageText{
         text-align: center;
-        font-family: georgia;
+        font-family: Arial, sans-serif;
         color: #FFFFFF;
         vertical-align: middle;
+        text-shadow: 1px 1px 10px #000000;
+        letter-spacing: 5px;
       }
 
