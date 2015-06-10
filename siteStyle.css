@@ -59,6 +59,16 @@
         background-color: #50CB82;
       }
 
+      .HomePagHeader{
+        padding-top: 20px;
+        font-size: 36px;
+        text-align: center;
+        font-family: sans-serif;   
+        color: #FFFFFF;
+        text-shadow: 1px 1px 10px #000000;
+        letter-spacing: 5px;
+      }
+
       .HomePageText{
         padding-top: 20px;
         text-align: center;
