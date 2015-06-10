@@ -39,6 +39,12 @@
 
       .HomePageSections{
         width: auto;
-        height: 100px;
+        height: 400px;
         background-color: #4E8AAE;
+      }
+
+      .HomePageText{
+        text-align: center;
+        font-family: georgia;
+        font-color: white;
       }
