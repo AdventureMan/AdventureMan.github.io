@@ -37,14 +37,27 @@
         font-: bold;
       }
 
-      .HomePageSections{
+      #HomePageSection1{
         width: auto;
-        height: 400px;
+        height: 300px;
         background-color: #4E8AAE;
+      }
+
+      #HomePageSection2{
+        width: auto;
+        height: 300px;
+        background-color: #FFBA64;
+      }
+
+      #HomePageSection3{
+        width: auto;
+        height: 300px;
+        background-color: #50CB82;
       }
 
       .HomePageText{
         text-align: center;
         font-family: georgia;
-        font-color: white;
+        font-color: #FFFFFF;
       }
+
