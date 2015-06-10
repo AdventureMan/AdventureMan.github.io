@@ -34,7 +34,7 @@
 
       #resumeHead {
         text-align: left;
-        font-: bold;
+        font-family: bold;
       }
 
       #HomePageSection1{
@@ -58,7 +58,7 @@
       .HomePageText{
         text-align: center;
         font-family: georgia;
-        font-color: #FFFFFF;
+        color: #ffffff;
         vertical-align: middle;
       }
 
