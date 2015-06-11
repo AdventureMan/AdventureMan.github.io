@@ -86,6 +86,14 @@
         font-family: sans-serif;   
         font-size: 24px;
         color: #FFFFFF;
+        letter-spacing: 2px;
+      }
+
+      #WhatIKnowLeft{
+        display: block;
+        text-align: left;
+        font-size: 24px;
+        color: #FFFFFF;
         letter-spacing: 10px;
       }
 
