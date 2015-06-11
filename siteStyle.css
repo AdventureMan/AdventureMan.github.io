@@ -88,6 +88,9 @@
         color: #FFFFFF;
         letter-spacing: 2px;
         line-height: 30px;
+        position: relative;
+        top: 50%
+        transform: translateY(-50%);
       }
 
       #MoviesParagraph{
