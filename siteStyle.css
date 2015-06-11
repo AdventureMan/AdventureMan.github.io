@@ -98,14 +98,15 @@
       }
 
       .BoxSize{
-        padding: 5px;
+        padding: 10px;
         border: thin;
         border-color: #000000;
         border-radius: 20px;
         background-color: #4E8AAE;
         float: left;
-        height: 50px;
-        width: 300px;
+        height: 250px;
+        width: 400px;
+        margin: 5px;
       }
 
       #WhatIKnowLeft{
