@@ -109,6 +109,12 @@
         margin: 5px;
       }
 
+      .BoxSection{
+        float: middle;
+        height: auto;
+        width: auto;
+      }
+
       #WhatIKnowLeft{
         display: block;
         text-align: left;
