@@ -88,9 +88,9 @@
         color: #FFFFFF;
         letter-spacing: 2px;
         line-height: 30px;
-        position: relative;
-        top: 50%
-        transform: translateY(-50%);
+        padding-top: auto;
+        padding-bottom: auto;
+
       }
 
       #MoviesParagraph{
@@ -126,5 +126,18 @@
         font-size: 24px;
         color: #FFFFFF;
         letter-spacing: 10px;
+      }
+
+      .centerer.outer {
+    display: table;
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+      }
+
+      .centerer.inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
       }
 
