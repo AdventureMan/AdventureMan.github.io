@@ -39,19 +39,19 @@
         font-family: bold;
       }
 
-      #HomePageSection1{
+      .HomePageSection1{
         margin: 0;
         padding: 0;
         height: 100vh;
         width: 100%;
-        background-color: #4E8AAE;
+        background-color: #40C4FF;
         overflow-y: hidden;
       }
 
-      #HomePageSection2{
+      .HomePageSection2{
         height: 100vh;
         width: 100%;
-        background-color: #FFBA64;
+        background-color: #FFF9C4;
         overflow-y: hidden;
       }
 
@@ -69,7 +69,7 @@
         font-family: sans-serif;   
         color: #FFFFFF;
         text-shadow: 1px 1px 10px #000000;
-        letter-spacing: 35px;
+        letter-spacing: 15px;
       }
 
       .HomePageText{
@@ -78,7 +78,7 @@
         font-family: sans-serif;   
         color: #FFFFFF;
         text-shadow: 1px 1px 10px #000000;
-        letter-spacing: 15px;
+        letter-spacing: 10px;
       }
 
       .HomePageParagraph{
@@ -141,3 +141,18 @@
     text-align: center;
       }
 
+.aboutBlock{
+  height: 25vh;
+  width: 25vw;
+  margin: 20px auto 10px 5%;
+  float: left;
+  background-color: #FFFFFF;
+  border: thin;
+  border-radius: 15px;
+  position: relative;
+}
+
+.aboutText{
+  text-align: center;
+  margin: 10px;
+}
