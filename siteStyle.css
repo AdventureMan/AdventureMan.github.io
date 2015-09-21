@@ -1,45 +1,7 @@
-      #imgPos{
-        text-align: center;
-        margin: 75px 50px;
-      }
-
-      #overAll {
-        margin: 0;
-        padding: 0;
-        background-color: white;
-        font-family: georgia;
-      }
-
-      #LIKEheader{
-        text-align: center;
-        font-family: georgia;
-        text-decoration: overline;
-      }
-
-      #HomeText{
-      	font-family: georgia;
-        text-align: center;
-      	
-      }
-
-      #frameStyle {
-        display:block;
-        text-align: center;
-        margin-top: 25px
-      }
-
-      #experienceStyle {
-        list-style: circle;
-        text-align: left;
-        line-height: 150%;
-      }
-
-      #resumeHead {
-        text-align: left;
-        font-family: bold;
-      }
-
-      .HomePageSection1{
+body{
+  font-family: 'Raleway' sans-serif;
+}
+      .HomePageSection1{ 
         margin: 0;
         padding: 0;
         height: 100vh;
@@ -47,12 +9,17 @@
         background-color: #40C4FF;
         overflow-y: hidden;
       }
-
+      .center{
+        text-align: center;
+      }
       .HomePageSection2{
         height: 100vh;
         width: 100%;
-        background-color: #009688;
+        background-color: #FFFFF;
+        position: relative;
         overflow-y: hidden;
+        padding-top: .25vh;
+        
       }
 
       #HomePageSection3{
@@ -64,21 +31,29 @@
 
       .HomePageHeader{
         padding-top: 20px;
-        font-size: 500%;
+        font-size: 800%;
+        font-weight: bold;
         text-align: center;
-        font-family: sans-serif;   
         color: #FFFFFF;
-        text-shadow: 1px 1px 10px #000000;
-        letter-spacing: 15px;
+        letter-spacing: 10x;
       }
 
       .HomePageText{
         padding-top: 20px;
+        font-size: 200%;
+        font-weight: bold;
+        text-align: center;  
+        color: #363636;
+        letter-spacing: 5px;
+      }
+
+    .HomePageText2{
+        padding-top: 20px;
+        font-size: 150%;
+        font-weight: bold;
         text-align: center;
-        font-family: sans-serif;   
-        color: #FFFFFF;
-        text-shadow: 1px 1px 10px #000000;
-        letter-spacing: 10px;
+        color: #363636;
+        letter-spacing: 5px;
       }
 
       .HomePageParagraph{
@@ -155,4 +130,9 @@
 .aboutText{
   text-align: center;
   margin: 10px;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: auto;
 }
