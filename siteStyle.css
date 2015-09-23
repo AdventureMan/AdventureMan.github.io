@@ -1,121 +1,73 @@
-body{
+body {
   font-family: 'Raleway' sans-serif;
-  font-size: 400%
-}
-      .HomePageSection1{ 
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-        width: 100%;
-        background-color: #40C4FF;
-        overflow-y: hidden;
-      }
-      .center{
-        text-align: center;
-      }
-      .HomePageSection2{
-        height: 100vh;
-        width: 100%;
-        text-align: center;
-        background-color: #FFFFF;
-        overflow-y: hidden;
-        padding-top: .25vh;
-        
-      }
-
-      .HomePageHeader{
-        padding-top: 20px;
-        font-size: 3em;
-        font-weight: bold;
-        text-align: center;
-        color: #FFFFFF;
-        letter-spacing: 10x;
-      }
-
-      .HomePageText{
-        padding-top: 20px;
-        font-size: .8em;
-        font-weight: bold;
-        text-align: center;  
-        color: #363636;
-        letter-spacing: 5px;
-      }
-
-    .HomePageText2{
-        padding-top: 20px;
-        font-size: .6em;
-        font-weight: bold;
-        text-align: center;
-        color: #363636;
-        letter-spacing: 5px;
-      }
-
-      .aboutParagraph{
-        text-align: center;
-        font-size: 20px;
-        padding: .5em;
-        border-radius: .2em;
-        background-color: rgba(64, 196, 255, .2);
-        
-      }
-
-      .BoxSize{
-        padding: 10px;
-        border: thin;
-        border-color: #000000;
-        border-radius: 20px;
-        background-color: #4E8AAE;
-        float: left;
-        height: 300px;
-        width: 400px;
-        margin: 5px;
-      }
-
-      .BoxSection{
-        margin-left: auto;
-        margin-right: auto;
-        width: 100vh;
-        height: 100vh;
-      }
-
-      #WhatIKnowLeft{
-        display: block;
-        text-align: left;
-        font-size: 24px;
-        color: #FFFFFF;
-        letter-spacing: 10px;
-      }
-
-      .centerer.outer {
-    display: table;
-    border-radius: 20px;
-    width: 100%;
-    height: 100%;
-      }
-
-      .centerer.inner {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-      }
-
-.aboutBlock{
-  height: 25vh;
-  width: 25vw;
-  margin: 20px auto 10px 5%;
-  float: left;
-  background-color: #FFFFFF;
-  border: thin;
-  border-radius: 15px;
-  position: relative;
 }
 
-.aboutText{
+.HomePageSection1 {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #40C4FF;
+  overflow-y: hidden;
+}
+
+.center {
   text-align: center;
+}
+
+.HomePageSection2 {
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  background-color: #FFFFF;
+  overflow-y: hidden;
+  padding-top: .25vh;
+}
+
+.HomePageHeader {
+  padding-top: 20px;
+  font-size: 10rem;
+  font-weight: bold;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.HomePageText {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #363636;
+  letter-spacing: 5px;
+}
+
+.HomePageText2 {
+  padding-top: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #363636;
+  letter-spacing: 5px;
+}
+
+.aboutParagraph {
+  text-align: center;
+  font-size: 2rem;
+  padding: .5em;
+  border-radius: .2em;
+  background-color: rgba(64, 196, 255, .2);
+}
+
+.footer {
+  text-align: center;
+}
+
+.aboutText {
+  text-align: center;
+  font-size: 1.8rem;
   margin: 10px;
 }
 
-.container{
+.container {
   margin-left: auto;
   margin-right: auto;
 }
