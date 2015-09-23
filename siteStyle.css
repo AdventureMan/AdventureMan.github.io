@@ -15,18 +15,11 @@ body{
       .HomePageSection2{
         height: 100vh;
         width: 100%;
+        text-align: center;
         background-color: #FFFFF;
-        position: relative;
         overflow-y: hidden;
         padding-top: .25vh;
         
-      }
-
-      #HomePageSection3{
-        height: 100vh;
-        width: 100%;
-        background-color: #50CB82;
-        overflow-y: hidden;
       }
 
       .HomePageHeader{
@@ -49,31 +42,20 @@ body{
 
     .HomePageText2{
         padding-top: 20px;
-        font-size: 150%;
+        font-size: 120%;
         font-weight: bold;
         text-align: center;
         color: #363636;
         letter-spacing: 5px;
       }
 
-      .HomePageParagraph{
+      .aboutParagraph{
         text-align: center;
-        font-family: sans-serif;   
-        font-size: 24px;
-        color: #FFFFFF;
-        letter-spacing: 2px;
-        line-height: 30px;
-        padding-top: auto;
-        padding-bottom: auto;
-
-      }
-
-      #MoviesParagraph{
-        text-align: center;
-        font-family: sans-serif;   
-        font-size: 24px;
-        color: #FFFFFF;
-        letter-spacing: 2px;
+        font-size: 20px;
+        padding: .5em;
+        border-radius: .2em;
+        background-color: rgba(64, 196, 255, .4);
+        
       }
 
       .BoxSize{
