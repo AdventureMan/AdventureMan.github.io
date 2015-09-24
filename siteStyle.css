@@ -16,7 +16,7 @@ body {
 }
 
 .HomePageSection2 {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   text-align: center;
   background-color: #FFFFF;
@@ -61,7 +61,6 @@ body {
   text-align: center;
   bottom: 0;
   margin-bottom: 1.5rem;
-  position: relative;
 }
 
 .aboutText {
