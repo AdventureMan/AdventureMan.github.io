@@ -1,6 +1,7 @@
 body {
   font-family: 'Raleway' sans-serif;
-  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
   margin: 0;
 }
 
@@ -17,6 +18,11 @@ body {
 
 .center {
   text-align: center;
+}
+
+.noPadder{
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .HomePageSection2 {
