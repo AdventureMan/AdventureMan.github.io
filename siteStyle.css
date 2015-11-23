@@ -76,6 +76,7 @@ body {
   font-size: 2rem;
   padding: .5em;
   border-radius: .2em;
+  height: 30rem;
   background-color: rgba(64, 196, 255, .2);
 }
 
