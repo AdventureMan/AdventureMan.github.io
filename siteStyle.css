@@ -150,14 +150,19 @@ body {
   font-weight: bold;
 }
 
-#playlistLink{
-  text-align: right;
+.playlistLink.btn.btn-info {
+  padding-top: 1%;
+  padding-right: 2%;
+  text-align: center;
   right: 0;
   border-radius: 100px;
   height:70px;
   width: 70px;
   margin: 2%;
   background-color: #6AE368;
+  color: white;
+  font-size:.8em;
+  text-decration:none;
   font-weight:bold;
   border-color:#6AE368;
   border-style: solid;
@@ -169,14 +174,18 @@ body {
   to{width:100px; }
 }
 
-#playlistLink:hover{
-  text-align: right;
+.playlistLink.btn.btn-info :hover{
+  padding-top: 1%;
+  padding-right: 2%;
+  text-align: center;
   right: 0;
   border-radius: 100px;
   height:70px;
   width: 100px;
   margin: 2%;
   background-color: #6AE368;
+  color: white;
+  text-decration:none;
   border-color:#6AE368;
   border-style: solid;
   animation-name: sizer;
