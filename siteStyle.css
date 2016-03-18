@@ -95,15 +95,57 @@ body {
 }
 
 .gradient{
-  background-image: 
+  background-image:
     linear-gradient(
       #FFFFFF, #363636
       );
 }
 
 .gradient2{
-  background-image: 
+  background-image:
     linear-gradient(
       #363636, #3B3E40
       );
+}
+
+.playlistPageHeader{
+  text-align: center;
+
+}
+
+#summer16{
+  min-height: 100%;
+  background-image: url("images/fireWorksFiltered.png");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.spotifyPlaylist{
+  text-align: center;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  overflow: hidden;
+}
+
+.spotifyPlaylist iframe {
+  text-align: center;
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.playlist{
+  margin-left: 2%;
+  text-align: center;
+}
+
+.btn-submit{
+  background-color: #ECD078;
+  margin-top:3%;
+  font-weight: bold;
 }
