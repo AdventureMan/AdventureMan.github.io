@@ -149,3 +149,36 @@ body {
   margin-top:3%;
   font-weight: bold;
 }
+
+#playlistLink{
+  text-align: right;
+  right: 0;
+  border-radius: 100px;
+  height:70px;
+  width: 70px;
+  margin: 2%;
+  background-color: #6AE368;
+  font-weight:bold;
+  border-color:#6AE368;
+  border-style: solid;
+  transition: width .5s;
+}
+
+@keyframes sizer{
+  from {width:70px; }
+  to{width:100px; }
+}
+
+#playlistLink:hover{
+  text-align: right;
+  right: 0;
+  border-radius: 100px;
+  height:70px;
+  width: 100px;
+  margin: 2%;
+  background-color: #6AE368;
+  border-color:#6AE368;
+  border-style: solid;
+  animation-name: sizer;
+  animation-duration: .5s;
+}
