@@ -150,9 +150,9 @@ body {
   font-weight: bold;
 }
 
-.playlistLink.btn.btn-info {
-  padding-top: 1%;
-  padding-right: 2%;
+a.playlistLink {
+  margin-top: 2%;
+  color:#6AE368;
   text-align: center;
   right: 0;
   border-radius: 100px;
@@ -160,9 +160,8 @@ body {
   width: 70px;
   margin: 2%;
   background-color: #6AE368;
-  color: white;
   font-size:.8em;
-  text-decration:none;
+  text-decoration:none;
   font-weight:bold;
   border-color:#6AE368;
   border-style: solid;
@@ -170,13 +169,13 @@ body {
 }
 
 @keyframes sizer{
-  from {width:70px; }
-  to{width:100px; }
+  from {width:70px; color: #6AE368; }
+  to{width:100px; color: white; }
 }
 
-.playlistLink.btn.btn-info :hover{
-  padding-top: 1%;
-  padding-right: 2%;
+a.playlistLink:hover{
+  margin-top: 2%;
+  color: white;
   text-align: center;
   right: 0;
   border-radius: 100px;
@@ -185,7 +184,7 @@ body {
   margin: 2%;
   background-color: #6AE368;
   color: white;
-  text-decration:none;
+  text-decoration:none;
   border-color:#6AE368;
   border-style: solid;
   animation-name: sizer;
