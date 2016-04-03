@@ -5,7 +5,7 @@ var http = require('http');
 
 app.get('/', function (req, res) {
   var mysql = require('mysql');
-  res.redirect('../index.html');
+  res.redirect('index.html');
 
   var connection = mysql.createConnection({
     host : "10.0.0.32",
