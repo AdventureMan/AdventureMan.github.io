@@ -1,10 +1,11 @@
 
 var express = require('../node_modules/express/index.js');
 var app = express();
+var http = require('http');
 
-app.post('/', function (req, res) {
+app.get('/', function (req, res) {
   var mysql = require('mysql');
-
+  res.redirect('../index.html');
 
   var connection = mysql.createConnection({
     host : "10.0.0.32",
@@ -14,16 +15,15 @@ app.post('/', function (req, res) {
   });
 
   connection.connect();
-  var songInput;
+  var songInput = "test song";
   connection.query('INSERT INTO playlist (songInfo) VALUES (?)', [songInput], function(err, results){
     if(err){
       console.log(err);
       console.log("Looks like there was an error");
       return ;
     }
-    console.log(results);
+    console.log("listening on port 1000");
   });
 
-  connection.end();
-  res.redirect('www.mattkeenan.me/summer2016');
-});
+  //connection.end();
+}).listen(1000);
