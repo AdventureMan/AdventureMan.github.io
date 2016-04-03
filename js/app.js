@@ -1,27 +1,29 @@
 
-var express = require(express);
+var express = require('../node_modules/express/index.js');
 var app = express();
-var mysql = require('mysql');
 
 app.post('/', function (req, res) {
-  res.send('POST request to the homepage');
+  var mysql = require('mysql');
+
+
+  var connection = mysql.createConnection({
+    host : "10.0.0.32",
+    user : "webInput",
+    password: "webConnection22",
+    database: 'webData'
+  });
+
+  connection.connect();
+  var songInput;
+  connection.query('INSERT INTO playlist (songInfo) VALUES (?)', [songInput], function(err, results){
+    if(err){
+      console.log(err);
+      console.log("Looks like there was an error");
+      return ;
+    }
+    console.log(results);
+  });
+
+  connection.end();
+  res.redirect('www.mattkeenan.me/summer2016');
 });
-
-var connection = mysql.createConnection({
-  host : "10.0.0.32",
-  user : "webInput",
-  password: "webConnection22",
-  database: 'webData'
-});
-
-    connection.connect();
-    var songInput;
-    connection.query('INSERT INTO playlist (songInfo) VALUES (?)', [songInput], function(err, results, fields){
-      if(err){
-        console.log(err);
-        return fields;
-      }
-      console.log(results);
-    });
-
-    connection.end();
