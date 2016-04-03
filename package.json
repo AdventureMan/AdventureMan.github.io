@@ -15,8 +15,8 @@
     "url": "https://github.com/AdventureMan/AdventureMan.github.io/issues"
   },
   "homepage": "https://github.com/AdventureMan/AdventureMan.github.io#readme",
-  "description": "",
   "dependencies": {
     "express": "^4.13.4"
-  }
+  },
+  "description": ""
 }
