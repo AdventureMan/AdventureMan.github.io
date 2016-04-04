@@ -28,6 +28,6 @@ app.get('/summer2016', function (req, res) {
     console.log("listening on port 8080");
   });
 
-  //connection.end();
+  connection.end();
   //res.redirect('http://www.mattkeenanm.me/summer2016');
 }).listen(8080);
