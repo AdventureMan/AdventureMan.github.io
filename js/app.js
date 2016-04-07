@@ -6,7 +6,7 @@ var http = require('http');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get('/summer2016', function (req, res) {
+app.post('/summer2016', function (req, res) {
   res.send('You sent the data: "' + req.query.songData + '"');
   var mysql = require('mysql');
 
