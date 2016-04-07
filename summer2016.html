@@ -32,7 +32,7 @@ $(function(){
   $('#submit').click(function(e){
     e.preventDefault();
     console.log('submit button clicked');
-    var docValues = document.getElementByID('usr').value;
+    var docValues = $('#usr').val();
 
     $.ajax({
       url: 'http://69.249.191.128:8080/summer2016',
