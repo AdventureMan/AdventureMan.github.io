@@ -20,7 +20,7 @@ console.log("listening on port 8080");
   });
 
   connection.connect();
-  var songInput = req.query.songData;
+  var songInput = JSON.stringify(req.body);
   var theDate = new Date();
   connection.query('INSERT INTO playlist (songInfo) VALUES (?)', [songInput], function(err, results){
 

@@ -32,20 +32,12 @@ $(function(){
   $('#submit').click(function(e){
     e.preventDefault();
     console.log('submit button clicked');
-
-    var data = {};
-    data.title = "title";
-    data.message = "message";
+    var docValues = document.getElementByID('usr').value;
 
     $.ajax({
-      type: 'POST',
-      data: JSON.stringify(data),
-      contentType: 'application/json',
       url: 'http://69.249.191.128:8080/summer2016',
-      success: function(data){
-        console.log('success');
-        console.log(JSON.stringify(data));
-      }
+      type: 'POST',
+      data: docValues
     });
   });
 });
