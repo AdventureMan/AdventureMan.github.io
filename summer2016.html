@@ -38,6 +38,7 @@ $(function(){
     $.ajax({
       url: 'http://69.249.191.128:8080/summer2016',
       type: 'POST',
+      context: document.body,
       data: docValues
     });
 
