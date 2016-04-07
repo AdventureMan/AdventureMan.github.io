@@ -33,12 +33,15 @@ $(function(){
     e.preventDefault();
     console.log('submit button clicked');
     var docValues = $('#usr').val();
+    console.log(docValues);
 
     $.ajax({
       url: 'http://69.249.191.128:8080/summer2016',
       type: 'GET',
       data: docValues
     });
+
+    $("#confirmation").show(4000);
   });
 });
   </script>
