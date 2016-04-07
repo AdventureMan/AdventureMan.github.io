@@ -27,6 +27,30 @@
   });
   </script>
 
+  <script type="text/javascript">
+$(function()){
+  $('#confirmation').click(function(e){
+    e.preventDefault();
+    console.log('submit button clicked');
+
+    var data = {};
+    data.title = "title";
+    data.message = "message";
+
+    $.ajax({
+      type: 'GET',
+      data: JSON.stringify(data),
+      contentType: 'application/json',
+      url: 'http://69.249.191.128:8080/summer2016',
+      success: function(data){
+        console.log('success');
+        console.log(JSON.stringify(data));
+      }
+    });
+  });
+});
+  </script>
+
 </head>
 <body id="summer16">
   <div class="container-fluid">
@@ -42,7 +66,7 @@
 
         <h1 class="HomePageText">Want a song added?</h1>
         <h2 class="HomePageText2">Request it!</h2>
-        <form action="http://69.249.191.128:8080/summer2016" method="get">
+        <form action="http://69.249.191.128:8080/summer2016">
           <input type="text" class="form-control" name="songData" id="usr" placeholder="I'm So - Andrew Applepie" />
           <button id="submit" type="submit" class="btn btn-submit">Submit</button>
         </form>
