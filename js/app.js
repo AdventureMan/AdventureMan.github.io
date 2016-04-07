@@ -28,7 +28,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 app.post('/summer2016', function (req, res) {
-  res.send('You sent the data: "' + req.body + '"');
+  //res.send('You sent the data: "' + req.body + '"');
   var mysql = require('mysql');
 
 console.log("listening on port 8080");
@@ -41,7 +41,7 @@ console.log("listening on port 8080");
   });
 
   connection.connect();
-  var songInput = req.body;
+  var songInput = "'" + JSON.stringify(req.body) + "'";
   console.log(songInput);
   var theDate = new Date();
   connection.query('INSERT INTO playlist (songInfo) VALUES (?)', [songInput], function(err, results){
