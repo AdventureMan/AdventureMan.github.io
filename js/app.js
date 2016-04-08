@@ -27,7 +27,7 @@ app.use(function (req, res, next) {
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-app.get('/summer2016', function (req, res) {
+app.post('/summer2016', function (req, res) {
   res.send('You sent the data: "' + req.body + '"');
   var mysql = require('mysql');
 
@@ -42,8 +42,7 @@ console.log("listening on port 8080");
   });
 
   connection.connect();
-  var songInput = req.query.songData;
-  //var songInput = JSON.stringify(req.body);
+  var songInput = JSON.stringify(req.body);
   console.log(req.body);
   console.log(songInput);
   var theDate = new Date();
