@@ -37,9 +37,9 @@ $(function(){
 
     $.ajax({
       url: 'http://69.249.191.128:8080/summer2016',
-      type: 'POST',
+      type: 'GET',
       dataType: 'text',
-      data: docValues
+      data: songData
     });
 
     $("#confirmation").show().fadeOut(8000);
@@ -64,7 +64,7 @@ $(function(){
         <h1 class="HomePageText">Want a song added?</h1>
         <h2 class="HomePageText2">Request it!</h2>
         <form >
-          <input type="text" class="form-control" name="songData" id="usr" placeholder="I'm So - Andrew Applepie" />
+          <input type="text" class="form-control" name="songData" id="usr" name="songData" placeholder="I'm So - Andrew Applepie" />
           <button id="submit" type="submit" class="btn btn-submit">Submit</button>
         </form >
         <h3 id="confirmation" class="HomePageText2">Thanks for requesting! Check back later to see if it is added</h3>
