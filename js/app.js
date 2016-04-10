@@ -26,6 +26,8 @@ app.use(function (req, res, next) {
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+app.enable('trust proxy');
+
 
 app.post('/summer2016', function (req, res) {
   res.send('You sent the data: "' + req.body + '"');
@@ -37,7 +39,7 @@ console.log("listening on port 8080");
   var connection = mysql.createConnection({
     host : "10.0.0.32",
     user : "webInput",
-    password: "webConnection22",
+    password: //nope,
     database: 'webData'
   });
 
@@ -46,6 +48,8 @@ console.log("listening on port 8080");
   console.log(req.body);
   console.log(songInput);
   var theDate = new Date();
+  var clientIP = req.ip;  //grab the IP of the submitter
+
   connection.query('INSERT INTO playlist (songInfo) VALUES (?)', [songInput], function(err, results){
 
     if(err){
