@@ -44,8 +44,7 @@ console.log("listening on port 8080");
   });
 
   connection.connect();
-  var songInput = JSON.stringify(req.body);
-  console.log(req.body);
+  var songInput = eval("(" + req.body + ")");
   console.log(songInput);
   var theDate = new Date();
   var clientIP = req.ip;  //grab the IP of the submitter
