@@ -28,11 +28,11 @@
 
   <script>
   $(document).ready(function(){
-
+      var x;
 
     $(".nightMode").click(function(){
-      var x;
-      if(x = 0){
+
+      if(x != 1){
         console.log("Night mode clicked");
         $(".HomePageSection1").css( "background-color", "#20293F" );
         $(".HomePageSection2").css( "background-color", "#030C22" );
@@ -55,6 +55,7 @@
         $("#aboutMePersonal").css( "color", "#000000" );
         $(".nightMode").css( "background-color", "#FFFFFF" );
         $("#aboutMe").css( "color", "#000000" );
+        x = 0;
       }
 
     });
