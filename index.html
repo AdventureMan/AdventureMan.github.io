@@ -28,17 +28,34 @@
 
   <script>
   $(document).ready(function(){
-    var x;
+
+
     $(".nightMode").click(function(){
-      console.log("Night mode clicked");
-      $(".HomePageSection1").css( "background-color", "#20293F" );
-      $(".HomePageSection2").css( "background-color", "#030C22" );
-      $(".aboutParagraph").css( "color", "#A9B0B3" );
-      $(".aboutText").css( "color", "#A9B0B3" );
-      $("#aboutMeExperience").css( "color", "#A9B0B3" );
-      $("#aboutMePersonal").css( "color", "#A9B0B3" );
-      $(".nightMode").css( "background-color", "#FFFFFF" );
-      $("#aboutMe").css( "color", "#A9B0B3" );
+      var x;
+      if(x = 0){
+        console.log("Night mode clicked");
+        $(".HomePageSection1").css( "background-color", "#20293F" );
+        $(".HomePageSection2").css( "background-color", "#030C22" );
+        $(".aboutParagraph").css( "color", "#A9B0B3" );
+        $(".aboutText").css( "color", "#A9B0B3" );
+        $("#aboutMeHeader").css( "color", "#A9B0B3" );
+        $("#aboutMeExperience").css( "color", "#A9B0B3" );
+        $("#aboutMePersonal").css( "color", "#A9B0B3" );
+        $(".nightMode").css( "background-color", "#A9B0B3" );
+        $("#aboutMe").css( "color", "#A9B0B3" );
+        x = 1;
+      }
+      else {
+        $(".HomePageSection1").css( "background-color", "#40C4FF" );
+        $(".HomePageSection2").css( "background-color", "#FFFFF" );
+        $(".aboutParagraph").css( "color", "#000000" );
+        $(".aboutText").css( "color", "#000000" );
+        $("#aboutMeHeader").css( "color", "#000000" );
+        $("#aboutMeExperience").css( "color", "#000000" );
+        $("#aboutMePersonal").css( "color", "#000000" );
+        $(".nightMode").css( "background-color", "#FFFFFF" );
+        $("#aboutMe").css( "color", "#000000" );
+      }
 
     });
   });
