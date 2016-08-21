@@ -26,6 +26,8 @@ body {
 }
 
 .HomePageSection2 {
+  margin-left: 0px;
+  margin-right: 0px;
   min-height:70vh;
   width: 100%;
   text-align: center;
