@@ -32,14 +32,14 @@
     $(".nightMode").click(function(){
       console.log("Night mode clicked");
       $(".HomePageSection1").css( "background-color", "#20293F" );
-      $(".HomePageSection2").css( "background-color", "#030C22" );
+      /*$(".HomePageSection2").css( "background-color", "#030C22" ); */
       $(".aboutParagraph").css( "color", "#FFFFF" );
       $(".aboutText").css( "color", "#FFFFF" );
-      $(".aboutMeExperience").css( "color", "#FFFFF" );
-      $(".aboutMePersonal").css( "color", "#FFFFF" );
+      $("#aboutMeExperience").css( "color", "#FFFFF" );
+      $("#aboutMePersonal").css( "color", "#FFFFF" );
       $(".nightMode").css( "background-color", "#FFFFFF" );
       $("#aboutMe").css( "color", "#FFFFF" );
-      
+
     });
   });
   </script>
@@ -76,8 +76,8 @@
   </div>
 </div>
 
-<div class="row container-fluid noPadder">
-  <div class="HomePageSection2">
+<div class="container-fluid noPadder">
+  <div class="row HomePageSection2">
     <div class="col-md-12 center">
       <h1 id="aboutMeHeader">About Me</h1>
     </div>
