@@ -1,22 +1,37 @@
 {
-  "name": "expressapp",
+  "name": "adventureman",
   "version": "1.0.0",
+  "description": "Integrating node modules into site",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AdventureMan/AdventureMan.github.io.git"
   },
-  "author": "",
+  "author": "Matt Keenan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AdventureMan/AdventureMan.github.io/issues"
   },
   "homepage": "https://github.com/AdventureMan/AdventureMan.github.io#readme",
   "dependencies": {
-    "express": "^4.13.4"
-  },
-  "description": ""
+    "@angular/common": "~2.3.0",
+    "@angular/compiler": "~2.3.0",
+    "@angular/core": "~2.3.0",
+    "@angular/forms": "~2.3.0",
+    "@angular/http": "~2.3.0",
+    "@angular/platform-browser": "~2.3.0",
+    "@angular/platform-browser-dynamic": "~2.3.0",
+    "@angular/router": "~3.3.0",
+
+    "angular-in-memory-web-api": "~0.1.17",
+    "systemjs": "0.19.40",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-rc.4",
+    "zone.js": "^0.7.2",
+    "express": "^4.14.0"
+  }
 }
