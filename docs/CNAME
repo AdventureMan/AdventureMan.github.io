@@ -1,0 +1,8 @@
+www.mattkeenan.me
+mail.mattkeenan.me IN CNAME privateemail.com.
+MX mx1.privateemail.com.
+TXT v=spf1 include:spf.privateemail.com ~all
+MX mx2.privateemail.com.
+autodiscover.mattkeenan.me IN CNAME privateemail.com.
+autoconfig.mattkeenan.me IN CNAME privateemail.com.
+_autodiscover._tcp.mattkeenan.me IN SRV 0 443 privateemail.com.
