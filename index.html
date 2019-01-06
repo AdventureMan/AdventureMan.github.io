@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <!-- The title tag modifies the title of the tab that appears in your browser. -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Temple Alum, Tech Enthusiast">
+
+  <title>Matt</title>
+
+  <link rel="icon" href="images/siteIcon.png" />
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="siteStyle.css" rel="stylesheet">
+  <title>Matt Keenan</title>
+  <script src="js/jquery-2.2.1.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    $(".HomePageHeader").hide().fadeIn(3000);
+    $(".HomePageText").hide().fadeIn(4000);
+    $(".HomePageText2").hide().fadeIn(4500);
+    $("#meImage").hide().fadeIn(5000);
+    $('.playlistLink').hide().fadeIn(5000);
+  });
+  </script>
+
+  <script>
+  $(document).ready(function(){
+      var x;
+
+    $(".nightMode").click(function(){
+
+      if(x != 1){
+        console.log("Night mode clicked");
+        $(".HomePageSection1").css( "background-color", "#20293F" );
+        $(".HomePageSection2").css( "background-color", "#030C22" );
+        $(".aboutParagraph").css( "color", "#A9B0B3" );
+        $(".aboutText").css( "color", "#A9B0B3" );
+        $("#aboutMeHeader").css( "color", "#A9B0B3" );
+        $("#aboutMeExperience").css( "color", "#A9B0B3" );
+        $("#aboutMePersonal").css( "color", "#A9B0B3" );
+        $(".nightMode").css( "background-color", "#A9B0B3" );
+        $("#aboutMe").css( "color", "#A9B0B3" );
+        x = 1;
+      }
+      else {
+        $(".HomePageSection1").css( "background-color", "#40C4FF" );
+        $(".HomePageSection2").css( "background-color", "#FFFFFF" );
+        $(".aboutParagraph").css( "color", "#000000" );
+        $(".aboutText").css( "color", "#000000" );
+        $("#aboutMeHeader").css( "color", "#000000" );
+        $("#aboutMeExperience").css( "color", "#000000" );
+        $("#aboutMePersonal").css( "color", "#000000" );
+        $(".nightMode").css( "background-color", "#000000" );
+        $("#aboutMe").css( "color", "#000000" );
+        x = 0;
+      }
+
+    });
+  });
+  </script>
+
+</head>
+
+<!-- Colors in HTML are denoted with hexidecimal digits -->
+<body>
+  <!--  <div id="HomeText"><h1>Matt Keenan</h1> -->
+  <div class="container-fluid noPadder">
+    <div class="row HomePageSection1">
+      <!--<a href="http://www.mattkeenan.me/summer2016" class="playlistLink btn" role="button"></a> -->
+      <button type="button" class="nightMode btn"></button>
+      <div class="col-md-12 noPadder">
+        <h1 class="HomePageHeader">Matt Keenan</h1>
+      </div>
+      <div class="col-sm-12">
+        <h5 class="HomePageText"><span style="color: #A41E35">TEMPLE UNIVERSITY</span> GRADUATE</h5>
+      </div>
+      <div col="col-sm-12">
+        <p class="HomePageText2">TECH ENTHUSIAST</p>
+      </div>
+      <div class="col-sm-12">
+        <p style="text-align: center">
+          <img id="meImage" src="images/Matt Self.png" alt="This is a headshot of me" height="315.5px" width="315.5px">
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid noPadder">
+  <div class="row HomePageSection2">
+    <div class="col-md-12 center">
+      <h1 id="aboutMeHeader">About Me</h1>
+    </div>
+    <div class="col-md-4 col-md-offset-4">
+      <div class="aboutText">
+        I am a 22 year old Temple University alumnus with a B.S in Information Sciences and Technology, and a passion for all things tech and media.
+        I am always interested to listen and learn about new things so if you see me around stop me and let's talk about anything and everything.
+      </div>
+    </div>
+    <div class="col-md-4 col-md-offset-2">
+      <h1 id="aboutMeExperience"> Experience </h1>
+      <div class="aboutParagraph">
+        I am an aspiring web developer, software designer, and tinkerer. Upon graduation, I completed my capstone course where I was on a team of six individuals who worked diligently to create an application management system to support 2,000 Temple University
+        users. Our team worked using agile methodologies to build the entire system from scratch using C#/.NET, MSSQL, HTML/CSS/Javascript, among other technologies.
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h1 id="aboutMePersonal"> Personal Life </h1>
+      <div class="aboutParagraph">
+        When I'm not busy with school work you will most likely find me walking around with my Canon 60D either shooting photos or videos for fun. If I'm not shooting pictures and videos I'm getting my fill of tech news through sites like Wired, Technobuffalo, and The Verge. These sites are the perfect crossroads for my love of tech and media.
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="container">
+
+    <a href="https://twitter.com/TheMattKeenan" target="_blank"><img src="images/twitterIcon.png" alt="Twitter" height="40px" width="40"></a>
+
+    <a href="https://www.youtube.com/user/mkeenan20" target="_blank"><img src="images/youtubeIcon.png" alt="Youtube" height="40px" width="40"></a>
+
+    <a href="https://www.linkedin.com/profile/view?id=AAMAABCg1LsB2iX9_hbAS7kwtqy3Fy1cgeHwWBw&trk=hp-identity-name" target="_blank"><img src="images/linkedIn.png" alt="LinkedIn" height="40px" width="40"></a>
+
+    <a href="Keenan_Matthew Resume.pdf" target="_blank"><img src="images/resumeIcon.png" alt="Resume" height="40px" width="40"></a>
+
+  </div>
+</div>
+</body>
+
+</html>
+
+</html>
+</html>

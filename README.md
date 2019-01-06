@@ -1,27 +1,11 @@
-# NgAdventureMan
+# Matt Keenan
+<h5>Code for www.mattkeenan.me</h2>
+<br>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.4.
+This is the workings of my personal website that I use for fun.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<h3>NodeJS Usage</h3>
+<p>The "Summer2016" page makes AJAX calls to a NodeJS Server running on my Raspberry Pi which then stores the submitted information in a MySQL Database also stored on the Pi</P>
+<br>
+<p>The NodeJS server is running with ExpressJS integration for ease of use and nifty middleware. This was my first time ever using NodeJS and ExpressJS so it is a learning experience.
+Please submit any issues as "bugs." There are probably some things that aren't ideal on my Node server or files that aren't necessary, but I'll be working on optimizing and minimizing things once I solidify everything.
