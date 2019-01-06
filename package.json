@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build-for-pages": "ng build --prod --base-href https://adventureman.github.io/Adventureman.github.io && npm run copy-cname",
+    "build-for-pages": "ng build --prod --base-href / && npm run copy-cname",
     "copy-cname": "cp CNAME dist/"
   },
   "private": true,
