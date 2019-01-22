@@ -8,8 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build-for-pages": "ng build --prod --base-href / && npm run copy-cname",
-    "copy-cname": "cp CNAME dist/"
+    "build-for-pages": "ng build --prod --base-href / && npm run copy-cname && npm run copy-readme",
+    "copy-cname": "cp CNAME dist/",
+    "copy-readme": "cp README.md dist/"
   },
   "private": true,
   "dependencies": {
